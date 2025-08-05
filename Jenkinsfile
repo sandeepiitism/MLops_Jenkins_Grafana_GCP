@@ -30,6 +30,7 @@ pipeline{
                 }
             }
         }
+        
 
         // stage('Building and Pushing Docker Image to GCR'){
         //     steps{
