@@ -33,3 +33,18 @@ docker run -d --name jenkins-dind ^
 jenkins-dind
 ```
 <img width="1911" height="1005" alt="Image" src="https://github.com/user-attachments/assets/a502cfd3-3076-4e67-b4ec-cdf2714eb480" />
+
+
+#### Installing some dependencies once Jemkins container is up and running:
+
+```bash
+docker exec -u root -it jenkins-dind bash
+apt update -y
+apt install -y python3
+python3 --version
+ln -s /usr/bin/python3 /usr/bin/python
+python --version
+apt install -y python3-pip
+apt install -y python3-venv
+exit
+```
