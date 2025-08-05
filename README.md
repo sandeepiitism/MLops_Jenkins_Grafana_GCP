@@ -52,3 +52,31 @@ exit
 ## Github with Jenkins
 
 https://github.com/user-attachments/assets/dd2d46f1-7624-436b-af1d-4a910834fa8f
+
+#### Install Google cloud CLI in Jenkins container
+
+```bash
+docker exec -u root -it jenkins-dind bash
+apt-get update
+apt-get install -y curl apt-transport-https ca-certificates gnupg
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+echo "deb https://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+
+apt-get update && apt-get install -y google-cloud-sdk
+gcloud --version
+
+docker exec -u root -it jenkins-dind bash
+groupadd docker
+usermod -aG docker jenkins
+usermod -aG root jenkins
+exit
+docker restart jenkins-dind
+
+```
+
+## Jenkins to GCP cloud
+#### upload secret key from gcp json to Jenkins credentials
+
+
+#### In GCP in your IAM --> Provide add roles as below
+<img width="1898" height="848" alt="Image" src="https://github.com/user-attachments/assets/6abc6bf2-6dc6-4670-beb2-3a89b8550013" />
