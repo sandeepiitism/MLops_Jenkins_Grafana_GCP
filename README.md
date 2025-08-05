@@ -18,3 +18,6 @@ ML pipelines with Kubernetes, GitLab CI, Jenkins, Prometheus, Grafana, Kubeflow 
 <img width="1720" height="957" alt="Image" src="https://github.com/user-attachments/assets/3237c48f-a991-445b-a727-c4b7b870316a" />
 
 
+## Docker creation
+#### This is a docker in docker for Jenkins
+<img width="1911" height="1005" alt="Image" src="https://github.com/user-attachments/assets/a502cfd3-3076-4e67-b4ec-cdf2714eb480" />
