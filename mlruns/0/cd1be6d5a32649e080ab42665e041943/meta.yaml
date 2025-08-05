@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/F%20Drive/personal/GCP_MLops/MLops_Jenkins_Grafana_GCP/mlruns/0/cd1be6d5a32649e080ab42665e041943/artifacts
+end_time: 1754397540895
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cd1be6d5a32649e080ab42665e041943
+run_name: dashing-boar-640
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754397529091
+status: 3
+tags: []
+user_id: sande
