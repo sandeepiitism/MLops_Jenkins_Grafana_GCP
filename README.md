@@ -48,3 +48,7 @@ apt install -y python3-pip
 apt install -y python3-venv
 exit
 ```
+
+## Github with Jenkins
+
+https://github.com/user-attachments/assets/dd2d46f1-7624-436b-af1d-4a910834fa8f
