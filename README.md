@@ -20,4 +20,16 @@ ML pipelines with Kubernetes, GitLab CI, Jenkins, Prometheus, Grafana, Kubeflow 
 
 ## Docker creation
 #### This is a docker in docker for Jenkins
+
+``` bash
+docker build -t jenkins-dind . 
+docker images
+
+docker run -d --name jenkins-dind ^
+--privileged ^
+-p 8080:8080 -p 50000:50000 ^
+-v //var/run/docker.sock:/var/run/docker.sock ^
+-v jenkins_home:/var/jenkins_home ^
+jenkins-dind
+```
 <img width="1911" height="1005" alt="Image" src="https://github.com/user-attachments/assets/a502cfd3-3076-4e67-b4ec-cdf2714eb480" />
