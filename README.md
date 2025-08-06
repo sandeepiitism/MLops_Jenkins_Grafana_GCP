@@ -80,3 +80,9 @@ docker restart jenkins-dind
 
 #### In GCP in your IAM --> Provide add roles as below
 <img width="1898" height="848" alt="Image" src="https://github.com/user-attachments/assets/6abc6bf2-6dc6-4670-beb2-3a89b8550013" />
+
+### Model stored in GCR
+<img width="1903" height="792" alt="Image" src="https://github.com/user-attachments/assets/12f81118-afc1-4713-ac06-bfc5044c74d5" />
+
+### App deployed in Cloud Run
+<img width="1908" height="797" alt="Image" src="https://github.com/user-attachments/assets/58637708-9ef6-47b0-86fe-bc4cd8574c19" />
