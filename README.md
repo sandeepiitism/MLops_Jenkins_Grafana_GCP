@@ -86,3 +86,7 @@ docker restart jenkins-dind
 
 ### App deployed in Cloud Run
 <img width="1908" height="797" alt="Image" src="https://github.com/user-attachments/assets/58637708-9ef6-47b0-86fe-bc4cd8574c19" />
+
+## In DockerHub 
+
+<img width="1892" height="1002" alt="Image" src="https://github.com/user-attachments/assets/263a18bf-b2f1-4046-ad4e-8bc56630ef9f" />
